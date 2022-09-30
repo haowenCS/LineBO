@@ -24,7 +24,7 @@ To run the experiments, replace "{experiment_name}" in the instructions below by
 
 Instructions to run experiments and create plots:
 
-1. febo create {experiment_name} --config config/{experiment_name}.yaml
-2. febo run {experiment_name}
+1. febo create hartmann6_constraint --config config/hartmann6_constraint.yaml
+2. febo run hartmann6_constraint
                 (this will take a while, you can set the number of repetitions in the yaml file)
-3. febo plot {experiment_name} --plots febo.plots.InferenceRegret
+3. febo plot hartmann6_constraint --plots febo.plots.InferenceRegret

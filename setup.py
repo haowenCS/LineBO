@@ -26,7 +26,7 @@ setup(name='febo',
           'celery',
           'noisyopt',
           'cma',
-          'ConfigSpace==0.4.6', # required for hpolib
+          'ConfigSpace', # required for hpolib
          # 'hpolib2==0.0.1', # hpolib
       ],
       dependency_links=[
